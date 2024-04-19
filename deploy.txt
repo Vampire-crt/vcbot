@@ -1,0 +1,17 @@
+		How to deploy >>>>>>>>>
+		
+		Connect to your ubuntu vps.
+		
+		Give this commands 
+		
+		sudo apt update && sudo apt upgrade -y 
+		
+		sudo apt install python3
+
+		sudo apt install python3-pip
+		
+	Now go to the directory where you have puted you bot file .
+	
+		pip install -r requirements.txt
+		
+		python3 bot.py
