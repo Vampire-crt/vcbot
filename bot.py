@@ -3,7 +3,7 @@ import requests
 from pyrogram import Client, filters
 
 BOT_TOKEN = '6992476835:AAFSpMcyobLhE3dPBlJpN5d3Lt-Yt2XZDtc'
-API_ID = '11740987'
+API_ID = '117333987'
 API_HASH = 'e94b99e12ae7861e4542813021237ce'
 
 
