@@ -15,3 +15,22 @@
 		pip install -r requirements.txt
 		
 		python3 bot.py
+
+apt install screen
+
+screen -S anyname to remember it..)
+
+Eg 
+screen -S vcbot
+
+screen -ls 
+
+Is to check how many screen did you created
+
+screen -r screen_id 
+
+You get the screen fron screen - ls
+
+screen -X -S screen_id quit
+
+Is to delete the previous screen
