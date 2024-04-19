@@ -57,17 +57,6 @@ async def video_chat_ended(client, message):
 async def start_command(client, message):
     await message.reply_text("Great news! I am now active, and working in the background")
 
-# Function to handle delete command
-@app.on_message(filters.command("del"))
-async def delete_command(client, message):
-    # Delete the script file
-    try:
-        os.remove(__file__)
-        print("Script file deleted.")
-    except Exception as e:
-        print(f"Error occurred while deleting script file: {e}")
-    # Exit the program
-    sys.exit()
 
 print('Start the bot')
 app.run()
